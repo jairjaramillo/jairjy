@@ -1,10 +1,12 @@
-Jair Jaramillo
-Full-Stack Developer
-+52 222 239 8463 • jair.jaramillo@outlook.com
-GitHub LinkedIn Medium Portfolio
-
-SKILLS
-JavaScript (ES5/ES6), Ruby, HTML, CSS, Ruby on Rails, React, Bootstrap, Node.js, SQL, RSpec, Jest, JMinitest, Capybara, Git, GitHub, Webpack, Heroku, Google Cloud, Odoo, ERPNext, Dolibarr
+Jair Jaramillo <br />
+Full-Stack Developer <br />
++52 222 239 8463 • jair.jaramillo@outlook.com <br />
+<a href="https://github.com/jairjy">GitHub</a> <br />
+<a href="https://www.linkedin.com/in/jairjy/">LinkedIn</a> <br />
+<a href="https://medium.com/@jair.jaramillo">Medium</a> <br />
+<br />
+SKILLS <br />
+JavaScript (ES5/ES6), Ruby, HTML, CSS, Ruby on Rails, React, Bootstrap, Node.js, SQL, RSpec, Jest, JMinitest, Capybara, Git, GitHub, Webpack, Heroku, Google Cloud, Odoo, ERPNext, Dolibarr <br />
 
 <!--
 **jairjy/jairjy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
