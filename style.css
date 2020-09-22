@@ -1,22 +1,77 @@
 body {
-  background: #008080;
+	background: #008080;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 	background-color: rgb(119, 119, 119);
 
 	display: none;
 }
 
 li {
-  float: left;
+	float: left;
 }
 
 .window {
 	width: 50%;
 	margin: 10px;
+}
+
+.show-window {
+	display: block;
+}
+
+.icon {
+	background-size: contain;
+	background-repeat: no-repeat;
+	min-height: 50px;
+  min-width: 50px;
+  margin: 0 0 10px 0;
+}
+
+.iconame {
+  margin: 0 0 10px 0;
+  font-weight: 100;
+}
+
+.main-grid {
+	display: grid;
+	grid-template-columns: minmax(50,70) 1fr;
+	grid-template-rows: repeat(6, minmax(50px, 70px)) 1fr 20px;
+}
+
+#icopic-profile {
+	background-image: url('/assets/user.png');
+}
+
+#icopic-about {
+	background-image: url('/assets/folder.png');
+}
+
+#icopic-experience {
+	background-image: url('/assets/monitor.png');
+}
+
+#icopic-education {
+	background-image: url('/assets/note.png');
+}
+
+#icopic-projects {
+	background-image: url('/assets/program.png');
+}
+
+#icopic-portofolio {
+	background-image: url('/assets/paint.png');
+}
+
+#taskbar {
+  display: none;
+}
+
+#window-about {
+	display: block;
 }
