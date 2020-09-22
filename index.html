@@ -1,159 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Jair Jaramillo</title>
-		<link rel="stylesheet" href="normalize.css" />
-		<link rel="stylesheet" href="https://unpkg.com/98.css" />
-		<link rel="stylesheet" href="./style.css" />
 
-		<link rel="icon" type="image/png" href="favicons/favicon-196x196.png" sizes="196x196" />
-        <link rel="icon" type="image/png" href="/assets/favicon.png" sizes="96x96" />
-        <link rel="icon" type="image/png" href="/assets/favicon.png" sizes="32x32" />
-        <link rel="icon" type="image/png" href="/assets/favicon.png" sizes="16x16" />
-        <link rel="icon" type="image/png" href="/assets/favicon.png" sizes="128x128" />
-	</head>
-	<body>
-		<main class="main-grid" >
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Jair Jaramillo</title>
+	<link rel="stylesheet" href="normalize.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://unpkg.com/98.css" />
+	<link rel="stylesheet" href="./style.css" />
+	<script src="main.js"></script>
 
-			<div id="profile-icon">
-				<div class="icon" id="icopic-profile"></div>
-				<div class="iconame title-bar-text">Jair Jaramillo</div>
-			</div>
-			<div id="about-icon">
-				<div class="icon" id="icopic-about"></div>
-				<div class="iconame title-bar-text">About Me</div>
-			</div>
-			<div id="experience-icon">
-				<div class="icon" id="icopic-experience"></div>
-				<div class="iconame title-bar-text">My Experience</div>
-			</div>
-			<div id="education-icon">
-				<div class="icon" id="icopic-education"></div>
-				<div class="iconame title-bar-text">My Education</div>
-			</div>
-			<div id="projects-icon">
-				<div class="icon" id="icopic-projects"></div>
-				<div class="iconame title-bar-text">My Projects</div>
-			</div>
-			<div id="portofolio-icon">
-				<div class="icon" id="icopic-portofolio"></div>
-				<div class="iconame title-bar-text">My Designs</div>
-			</div>
-			<div class="space" id="space-window">
-				<div class="profile window show-window" id="profile">
-					<div class="title title-bar">
-						<div class="title-bar-text">Hello World!</div>
-						<div class="title-bar-controls">
-							<button aria-label="Minimize"></button>
-							<button aria-label="Maximize"></button>
-							<button aria-label="Close"></button>
-						</div>
-					</div>
+	<link rel="icon" type="image/png" href="favicons/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="/assets/favicon.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="/assets/favicon.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/assets/favicon.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="/assets/favicon.png" sizes="128x128" />
+</head>
 
-					<div class="content show-window" id="window-about">
-						Jair Jaramillo <br />
-						Full-Stack Developer <br />
-						+52 222 239 8463 • jair.jaramillo@outlook.com <br />
-						<a href="https://github.com/jairjy">GitHub</a> <br />
-						<a href="https://www.linkedin.com/in/jairjy/">LinkedIn</a> <br />
-						<a href="https://medium.com/@jair.jaramillo">Medium</a> <br />
-						<br />
-						SKILLS <br />
-						JavaScript (ES5/ES6), Ruby, HTML, CSS, Ruby on Rails, React, Bootstrap, Node.js, SQL, RSpec, Jest, JMinitest, Capybara, Git, GitHub, Webpack, Heroku, Google Cloud, Odoo, ERPNext, Dolibarr <br />
+<body>
+	<main class="main-grid">
+
+		<div class="icon-grid" id="profile-icon">
+			<div class="icon" id="icopic-profile"></div>
+			<div class="iconame title-bar-text">Jair Jaramillo</div>
+		</div>
+		<div class="icon-grid" id="about-icon">
+			<div class="icon" id="icopic-about"></div>
+			<div class="iconame title-bar-text">About Me</div>
+		</div>
+		<div class="icon-grid" id="experience-icon">
+			<div class="icon" id="icopic-experience"></div>
+			<div class="iconame title-bar-text">My Experience</div>
+		</div>
+		<div class="icon-grid" id="education-icon">
+			<div class="icon" id="icopic-education"></div>
+			<div class="iconame title-bar-text">My Education</div>
+		</div>
+		<div class="icon-grid" id="projects-icon">
+			<div class="icon" id="icopic-projects"></div>
+			<div class="iconame title-bar-text">My Projects</div>
+		</div>
+		<div class="icon-grid" id="portofolio-icon">
+			<div class="icon" id="icopic-portofolio"></div>
+			<div class="iconame title-bar-text">My Designs</div>
+		</div>
+		<div class="space" id="space-window">
+			<div class="profile window show-window" id="profile">
+				<div class="title title-bar">
+					<div class="title-bar-text">Hello World!</div>
+					<div class="title-bar-controls">
+						<button aria-label="Minimize"></button>
+						<button aria-label="Maximize"></button>
+						<button aria-label="Close"></button>
 					</div>
 				</div>
 
-				<div class="resume window show-window" id="resume">
-					<div class="title title-bar">
-						<div class="title-bar-text">Experience</div>
-						<div class="title-bar-controls">
-							<button aria-label="Minimize"></button>
-							<button aria-label="Maximize"></button>
-							<button aria-label="Close"></button>
+				<ul class="content tree-view show-window" id="window-about">
+					<div id="about-pic"></div>
+					<div id="about-text">
+						<h2 class="txt">Jair Jaramillo</h2>
+						<h4 class="txt">Full-Stack Developer</h4>
+						<div class="txn"><a class="link" href="mailto:jair.jaramillo@outlook.com">jair.jaramillo@outlook.com</a>
+						</div>
+						<div class="txn">
+							<a class="link" target="_blank" href="https://github.com/jairjy">GitHub</a>
+							•
+							<a class="link" target="_blank" href="https://www.linkedin.com/in/jairjy/">LinkedIn</a>
+							•
+							<a class="link" target="_blank" href="https://medium.com/@jair.jaramillo">Medium</a>
+						</div>
+						<br />
+						<h5 class="txt">SKILLS</h5>
+						<div class="txn">
+							JavaScript (ES5/ES6), Ruby, HTML, CSS, Ruby on Rails, React, Bootstrap, Node.js, SQL, RSpec, Jest,
+							JMinitest, Capybara, Git, GitHub, Webpack, Heroku, Google Cloud, Odoo, ERPNext, Dolibarr <br />
 						</div>
 					</div>
-					<div>
-						System Administrator March 2018 – August 2019 <br />
-						PMOF. Puebla, México <br />
-						● Provided software management, technical support, and system maintenance to a company with 30+ employees. <br />
+				</ul>
+			</div>
+
+			<div class="resume window show-window" id="resume">
+				<div class="title title-bar">
+					<div class="title-bar-text">Experience</div>
+					<div class="title-bar-controls">
+						<button aria-label="Minimize"></button>
+						<button aria-label="Maximize"></button>
+						<button aria-label="Close"></button>
+					</div>
+				</div>
+				<ul class="tree-view">
+					<div class="txn col">
+						<h5>System Administrator March 2018 – August 2019</h5>
+						<h6>PMOF. Puebla, México</h6>
+						● Provided software management, technical support, and system maintenance to a company with 30+ employees.
+						<br />
 						● Maintained and improved a company server with an ERP remote system. <br />
-						Remote CCTV and Security device manager August 2017 - January 2019 <br />
-						Multiple. México <br />
+						<h5>Remote CCTV and Security device manager August 2017 - January 2019</h5>
+						<h6>Multiple. México</h6>
 						● Installed CCTV equipment in different estates in the country to be managed in a main office. <br />
 						● Installation, configuration, and maintenance of video record devices like DVR and NVR. <br />
 						● Installation and configuration of biometric access control devices. <br />
-						Technical Support Specialist August 2017 - August 2019 <br />
-						Multiple. Puebla, México <br />
+						<h5>Technical Support Specialist August 2017 - August 2019</h5>
+						<h6>Multiple. Puebla, México</h6>
 						● Worked with multiple small companies providing solutions to computing issues. <br />
 						● Implemented both local and cloud server ERP, CRM, and intranet websites. <br />
-						● Assisted in local and remote technical support to small companies, including software troubleshooting and capacitation. <br />
+						● Assisted in local and remote technical support to small companies, including software troubleshooting and
+						capacitation. <br />
+					</div>
+				</ul>
+			</div>
+
+			<div class="education window show-window" id="education">
+				<div class="title title-bar">
+					<div class="title-bar-text">Education</div>
+					<div class="title-bar-controls">
+						<button aria-label="Minimize"></button>
+						<button aria-label="Maximize"></button>
+						<button aria-label="Close"></button>
 					</div>
 				</div>
-
-				<div class="education window show-window" id="education">
-					<div class="title title-bar">
-						<div class="title-bar-text">Education</div>
-						<div class="title-bar-controls">
-							<button aria-label="Minimize"></button>
-							<button aria-label="Maximize"></button>
-							<button aria-label="Close"></button>
-						</div>
-					</div>
-					<div>
-						Microverse, Certificate August 2019 - Present <br />
-						● Spent 1300+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects in Ruby, Rails, JavaScript, React, and Redux. <br />
-						● Developed skills in remote pair-programming using GitHub, industry-standard gitflow, and daily standups to communicate and collaborate with international remote developers. <br />
-						Centro de Capacitación de Desarrollo de Software Certificate September 2007 - June 2012 <br />
+				<ul class="tree-view">
+					<div class="txn col">
+						<h5>Certificates</h5>
+						● <a class="link" target="_blank" href="https://www.credential.net/b761cbcd-ee3e-432f-abc7-c66759bbbd02">Microverse HTML/CSS.</a><br>
+						● <a class="link" target="_blank" href="https://www.credential.net/090c5a46-c9ef-4d73-83cb-bda8a3b7ac33">Microverse Ruby/Databases.</a><br>
+						● <a class="link" target="_blank" href="https://www.credential.net/e0575721-baca-4586-8277-3b3ea14cccda">Microverse Ruby on Rails.</a><br>
+						<h5>Microverse, Certificate August 2019 - Present</h5>
+						● Spent 1300+ hours mastering algorithms, data structures, and full-stack development while simultaneously
+						developing projects in Ruby, Rails, JavaScript, React, and Redux. <br />
+						● Developed skills in remote pair-programming using GitHub, industry-standard gitflow, and daily standups to
+						communicate and collaborate with international remote developers. <br />
+						<h5>Centro de Capacitación de Desarrollo de Software Certificate September 2007 - June 2012</h5>
 						● 60+ hours learning WPF, Web App development, Javascript and CSS <br />
-						Universidad Autonoma de Puebla Computer Science September 2007 - June 2012 <br />
+						<h5>Universidad Autonoma de Puebla Computer Science September 2007 - June 2012</h5>
+					</div>
+				</ul>
+			</div>
+
+			<div class="projects window show-window" id="projects">
+				<div class="title title-bar">
+					<div class="title-bar-text">Projects</div>
+					<div class="title-bar-controls">
+						<button aria-label="Minimize"></button>
+						<button aria-label="Maximize"></button>
+						<button aria-label="Close"></button>
 					</div>
 				</div>
-
-				<div class="projects window show-window" id="projects">
-					<div class="title title-bar">
-						<div class="title-bar-text">Projects</div>
-						<div class="title-bar-controls">
-							<button aria-label="Minimize"></button>
-							<button aria-label="Maximize"></button>
-							<button aria-label="Close"></button>
-						</div>
+				<ul class="tree-view">
+					<div class="txn">
+						<a target="_blank" class="link" href="https://github.com/jairjy/Microverse-605-Weather-App">● Wheater App 1</a><br>
+						<a target="_blank" class="link" href="https://github.com/jairjy/weather-app">● Wheater App 2</a><br>
+						<a target="_blank" class="link" href="https://github.com/jairjy/EzCreate">● EzCreate Library</a><br>
+						<a target="_blank" class="link" href="https://github.com/jairjy/EzStorage">● EzStorage Library</a><br>
+						<a target="_blank" class="link" href="https://github.com/jairjy/shinobi-run">● Scroller game</a><br>
+						<a target="_blank" class="link" href="https://github.com/jairjy/98.css">● CSS Library</a><br>
+						<a target="_blank" class="link" href="https://github.com/jairjy/98.css/tree/gh-pages">● Cytu.be Retro Theme</a><br>
 					</div>
-					<div>
-						<a href="https://github.com/jairjy/Microverse-605-Weather-App">● Wheater App 1</a><br>
-						<a href="https://github.com/jairjy/weather-app">● Wheater App 2</a><br>
-						<a href="https://github.com/jairjy/EzCreate">● EzCreate Library</a><br>
-						<a href="https://github.com/jairjy/EzStorage">● EzStorage Library</a><br>
-						<a href="https://github.com/jairjy/shinobi-run">● Scroller game</a><br>
-						<a href="https://github.com/jairjy/98.css">● CSS Library</a><br>
-						<a href="https://github.com/jairjy/98.css/tree/gh-pages">● Cytu.be Retro Theme</a><br>
+				</ul>
+			</div>
+
+			<div class="projects window show-window" id="Portofolio">
+				<div class="title title-bar">
+					<div class="title-bar-text">Portofolio</div>
+					<div class="title-bar-controls">
+						<button aria-label="Minimize"></button>
+						<button aria-label="Maximize"></button>
+						<button aria-label="Close"></button>
 					</div>
 				</div>
-
-				<div class="projects window show-window" id="Portofolio">
-					<div class="title title-bar">
-						<div class="title-bar-text">Portofolio</div>
-						<div class="title-bar-controls">
-							<button aria-label="Minimize"></button>
-							<button aria-label="Maximize"></button>
-							<button aria-label="Close"></button>
-						</div>
-					</div>
+				<ul class="tree-view">
 					<div>
 						Portofolio
 					</div>
-				</div>
-			</div>
-			<div class="space-empty"></div>
-			<div class="nav window" id="taskbar">
-				<ul>
-					<li>1</li>
-					<li>2</li>
-					<li>3</li>
-					<li>4</li>
 				</ul>
 			</div>
-		</main>
-	</body>
+		</div>
+		<div class="space-empty"></div>
+		<div class="nav window" id="taskbar">
+			<ul>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+			</ul>
+		</div>
+	</main>
+</body>
+
 </html>

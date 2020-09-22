@@ -16,8 +16,21 @@ li {
 	float: left;
 }
 
+.link:link,
+.link:visited {
+	color: blue;
+}
+
+.link:hover {
+	color: red;
+}
+
+.link:checked {
+	color: purple;
+}
+
 .window {
-	width: 50%;
+	width: 90%;
 	margin: 10px;
 }
 
@@ -25,11 +38,23 @@ li {
 	display: block;
 }
 
+.main-grid {
+	display: grid;
+	gap: 10px;
+	grid-template-columns: 50px 1fr;
+	grid-template-rows: repeat(6, 80px) 1fr 20px;
+	margin: 20px;
+}
+
+.icon-grid {
+	grid-column: 1 / 2;
+}
+
 .icon {
 	background-size: contain;
 	background-repeat: no-repeat;
-	min-height: 50px;
-  min-width: 50px;
+	height: 50%;
+	width: 100%;
   margin: 0 0 10px 0;
 }
 
@@ -38,10 +63,19 @@ li {
   font-weight: 100;
 }
 
-.main-grid {
-	display: grid;
-	grid-template-columns: minmax(50,70) 1fr;
-	grid-template-rows: repeat(6, minmax(50px, 70px)) 1fr 20px;
+.txt {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 600;
+}
+
+.txn {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 0.9rem;
+}
+
+#space-window {
+	grid-row: 1 / 1;
+	grid-column: 2 / 3;
 }
 
 #icopic-profile {
@@ -74,4 +108,18 @@ li {
 
 #window-about {
 	display: block;
+}
+
+/* Inside the windows */
+#window-about {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+}
+
+#about-pic {
+	align-self: flex-start;
+	height: 80%;
+	background-image: url("/assets/Jair\ Avatar.png");
+	background-size: contain;
+	background-repeat: no-repeat;
 }
