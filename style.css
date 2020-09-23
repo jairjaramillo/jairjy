@@ -53,13 +53,15 @@ li {
 .icon {
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-position: right;
 	height: 50%;
 	width: 100%;
-  margin: 0 0 10px 0;
+	cursor: pointer;
 }
 
 .iconame {
-  margin: 0 0 10px 0;
+	text-align: center;
+  margin: 0 0 15px 0;
   font-weight: 100;
 }
 
@@ -76,6 +78,7 @@ li {
 #space-window {
 	grid-row: 1 / 1;
 	grid-column: 2 / 3;
+	padding: 0 0 0 40px;
 }
 
 #icopic-profile {
@@ -122,4 +125,15 @@ li {
 	background-image: url("/assets/Jair\ Avatar.png");
 	background-size: contain;
 	background-repeat: no-repeat;
+}
+
+#design {
+	background-image: url("/assets/designs.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 500px;
+	width: 100%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: blue;
 }

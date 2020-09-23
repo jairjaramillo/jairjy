@@ -7,8 +7,8 @@ windows.push(document.getElementById('portfolio'));
 
 const hideall = () => {
 	windows.forEach((item) => {
-		// eslint-disable-next-line no-param-reassign
-		item.style.display = 'none';
+		const element = item;
+		element.style.display = 'none';
 	});
 };
 
