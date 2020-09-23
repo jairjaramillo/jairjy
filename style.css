@@ -83,27 +83,27 @@ li {
 }
 
 #icopic-profile {
-	background-image: url('/assets/user.png');
+	background-image: url('./assets/user.png');
 }
 
 #icopic-about {
-	background-image: url('/assets/folder.png');
+	background-image: url('./assets/folder.png');
 }
 
 #icopic-experience {
-	background-image: url('/assets/monitor.png');
+	background-image: url('./assets/monitor.png');
 }
 
 #icopic-education {
-	background-image: url('/assets/note.png');
+	background-image: url('./assets/note.png');
 }
 
 #icopic-projects {
-	background-image: url('/assets/program.png');
+	background-image: url('./assets/program.png');
 }
 
 #icopic-portofolio {
-	background-image: url('/assets/paint.png');
+	background-image: url('./assets/paint.png');
 }
 
 #taskbar {
@@ -123,13 +123,13 @@ li {
 #about-pic {
 	align-self: flex-start;
 	height: 80%;
-	background-image: url("/assets/Jair\ Avatar.png");
+	background-image: url("./assets/Jair\ Avatar.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
 #design {
-	background-image: url("/assets/designs.png");
+	background-image: url("./assets/designs.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	min-height: 500px;
