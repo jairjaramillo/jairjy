@@ -41,19 +41,20 @@ li {
 .main-grid {
 	display: grid;
 	gap: 10px;
-	grid-template-columns: 50px 1fr;
+	grid-template-columns: 100px 1fr;
 	grid-template-rows: repeat(6, 80px) 1fr 20px;
 	margin: 20px;
 }
 
 .icon-grid {
 	grid-column: 1 / 2;
+	width: 100%;
 }
 
 .icon {
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: right;
+	background-position: center;
 	height: 50%;
 	width: 100%;
 	cursor: pointer;
