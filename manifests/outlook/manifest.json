@@ -39,7 +39,7 @@
       }
   ],
   "start_url": "https://outlook.live.com/mail/",
-  "scope": "/",
+  "scope": ".",
   "display": "minimal-ui",
   "background_color": "#000000"
 }
