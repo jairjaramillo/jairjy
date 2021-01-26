@@ -6,6 +6,8 @@ windows.push(document.getElementById('education'));
 windows.push(document.getElementById('projects'));
 windows.push(document.getElementById('portfolio'));
 
+// test
+
 icons.push(document.getElementById('profile-icon'));
 icons.push(document.getElementById('experience-icon'));
 icons.push(document.getElementById('education-icon'));
